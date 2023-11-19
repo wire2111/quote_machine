@@ -1,0 +1,26 @@
+#quote-box {
+  margin: 50px auto 0 auto;
+  width: 50%;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+button, a {
+  margin: 1rem;
+}
